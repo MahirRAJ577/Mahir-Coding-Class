@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is about me</title>
+</head>
+<body>
+    <h1>This is about Me.</h1>
+    My name is <b>Mahir Rajkumar</b>, and I have a passion for <mark>coding, karate,</mark> and <mark>cricket</mark>.
+    <br> I currently attend <b>Queen’s College</b>. In my free time, I enjoy <i>playing chess, games and watching videos</i>, which helps me stay balanced.
+    <br> I am known for being <b>creative</b>, I took this class to help me <mark>improve</mark> myself. 
+</body>
+</html>
