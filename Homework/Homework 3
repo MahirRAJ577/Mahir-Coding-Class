@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <Table border="5" bgcolor="blue">
+        <tr>
+            <th bgcolor="yellow">number</th>
+            <th bgcolor="yellow">name</th>
+            <th bgcolor="yellow">age</th>
+        </tr>
+
+        <tr>
+            <td bgcolor="red">1</td>
+            <td bgcolor="pink">Mahir</td>
+            <td bgcolor="gree">13</td>
+        </tr>
+        <tr>
+            <td bgcolor="red">2</td>
+            <td bgcolor="pink">Maliha</td>
+            <td bgcolor="gree">15</td>
+        </tr>
+        <tr>
+            <td bgcolor="red">3</td>
+            <td bgcolor="pink">Miah</td>
+            <td bgcolor="gree">8</td>
+        </tr>
+        <tr>
+            <td bgcolor="red">4</td>
+            <td bgcolor="pink">Preya</td>
+            <td bgcolor="gree">43</td>
+        </tr>
+        <tr>
+            <td bgcolor="red">5</td>
+            <td bgcolor="pink">Dad</td>
+            <td bgcolor="gree">45</td>
+        </tr>
+    </Table>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <Table border="5" bgcolor="blue">
+        <tr>
+            <th bgcolor="yellow">Food</th>
+            <th bgcolor="yellow">Food Description</th>
+        </tr>
+
+        <tr>
+            <td>Chicken Fried Rice</td>
+            <td>Rice fried with vegetables and chicken.</td>
+        </tr>
+        <tr>
+            <td>Chicken Curry and Roti</td>
+            <td>Chicken boiled in a gravy and served with Roti</td>
+        </tr>
+    </Table>
+</body>
+</html>
