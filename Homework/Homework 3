@@ -6,38 +6,48 @@
     <title>Table</title>
 </head>
 <body>
-    <Table border="5" bgcolor="blue">
-        <tr>
-            <th bgcolor="yellow">number</th>
-            <th bgcolor="yellow">name</th>
-            <th bgcolor="yellow">age</th>
-        </tr>
 
-        <tr>
-            <td bgcolor="red">1</td>
-            <td bgcolor="pink">Mahir</td>
-            <td bgcolor="gree">13</td>
-        </tr>
-        <tr>
-            <td bgcolor="red">2</td>
-            <td bgcolor="pink">Maliha</td>
-            <td bgcolor="gree">15</td>
-        </tr>
-        <tr>
-            <td bgcolor="red">3</td>
-            <td bgcolor="pink">Miah</td>
-            <td bgcolor="gree">8</td>
-        </tr>
-        <tr>
-            <td bgcolor="red">4</td>
-            <td bgcolor="pink">Preya</td>
-            <td bgcolor="gree">43</td>
-        </tr>
-        <tr>
-            <td bgcolor="red">5</td>
-            <td bgcolor="pink">Dad</td>
-            <td bgcolor="gree">45</td>
-        </tr>
-    </Table>
+    <center>
+        <h1>My Family</h1>
+        <Table border="5" bgcolor="blue">
+            <tr>
+                <th bgcolor="yellow">number</th>
+                <th bgcolor="yellow">name</th>
+                <th bgcolor="yellow">age</th>
+                <th bgcolor="yellow">grade</th>
+            </tr>
+    
+            <tr>
+                <td bgcolor="red">1</td>
+                <td bgcolor="pink">Mahir</td>
+                <td bgcolor="lime">13</td>
+                <td bgcolor="cyan">9</td>
+            </tr>
+            <tr>
+                <td bgcolor="red">2</td>
+                <td bgcolor="pink">Maliha</td>
+                <td bgcolor="lime">15</td>
+                <td bgcolor="cyan">11</td>
+            </tr>
+            <tr>
+                <td bgcolor="red">3</td>
+                <td bgcolor="pink">Miah</td>
+                <td bgcolor="lime">8</td>
+                <td bgcolor="cyan">4</td>
+            </tr>
+            <tr>
+                <td bgcolor="red">4</td>
+                <td bgcolor="pink">Preya</td>
+                <td bgcolor="lime">43</td>
+                <td bgcolor="cyan">Job</td>
+            </tr>
+            <tr>
+                <td bgcolor="red">5</td>
+                <td bgcolor="pink">Dad</td>
+                <td bgcolor="lime">45</td>
+                <td bgcolor="cyan">Job</td>
+            </tr>
+        </Table>
+    </center>
 </body>
 </html>
