@@ -1,0 +1,24 @@
+/*styling that applied to all*/
+*{
+    background-color: darkcyan;
+}
+
+/*styling for heading 3*/
+h3{
+    color: darkgrey;
+}
+
+/*styling id selector */
+#myid1{
+    color: darkorange;
+}
+
+#myid2{
+    color: aliceblue;
+}
+
+/*styling using class selector*/
+.myclass1{
+    color: bisque;
+    text-align: center;
+}
