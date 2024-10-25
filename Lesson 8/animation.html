@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        /*the animation setup*/
+        @keyframes simplekeyframes {
+            0%  {background-color: fuchsia;}
+            20% {background-color: darkviolet;}
+            40% {background-color: blueviolet;}
+            60% {background-color: darkblue;}
+            80% {background-color: blue;}
+            100%    {background-color: cornflowerblue;}
+        }
+
+        /*applying the animation to the body*/
+        body {
+            background-color: blue; /*the default color before the animation*/
+            animation-name: simplekeyframes;
+            animation-duration: 20s;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
