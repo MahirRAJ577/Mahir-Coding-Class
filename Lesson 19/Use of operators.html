@@ -7,11 +7,20 @@
 </head>
 <body>
     <h1>Use of operators</h1>
-    <p1 id="p1"></p1>
-    <p2 id="p2"></p2>
+    <p1 id="p1"></p1><br>
+    <p2 id="p2"></p2><br>
+    <p3 id ="p3"></p3>
 
     <script>
-        var w, x, y, z
+        var w, x, y, z;
+        w = 20;
+        x = 80;
+        y = x/w;
+        z = x+y;
+
+        document.getElementById("p1").innerHTML = "The value of w = " +w +" The value of x = " +x;
+        document.getElementById("p2").innerHTML = "The value of y = x/w and z = x+y";
+        document.getElementById("p3").innerHTML =  "y = "+y +" z = "+z;
     </script>
 </body>
 </html>

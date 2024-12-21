@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions with parameter</title>
+</head>
+<body>
+    <p>setting a default value to a function parameter</p>
+    <p id="p1"></p>
+    <button type="button" onclick="myfunction(38)">Click Me</button>
+
+    <script>
+        function myfunction(x, y) {
+            if (y===undefined) {
+                y=14;
+            }
+
+            document.getElementById("p1").innerHTML = x*y;
+        }
+    </script>
+</body>
+</html>
