@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch in JavaScript</title>
+</head>
+<body>
+    <p id="p1"></p>
+
+    <script>
+        var day;
+
+        switch(new Date().getDay()) {
+            case 0:
+                day="sunday";
+                break;
+        }
+        document.getElementById("p1").innerHTML="today is "+day;
+    </script>
+</body>
+</html>
