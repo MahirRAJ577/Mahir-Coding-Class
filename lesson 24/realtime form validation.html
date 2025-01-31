@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Form Validation</title>
+
+    <!--importing external CSS-->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Real time Validation using JavaScript</h1>
+    <hr>
+
+    <form id="loginform" onsubmit="validate(event)">
+        <fieldset>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" minlength="8">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" minlength="8">
+            </div>
+
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="12" max="50">
+            </div>
+
+            <button type="submit">Login</button>
+        </fieldset>
+    </form>
+
+    <div id="message"></div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
