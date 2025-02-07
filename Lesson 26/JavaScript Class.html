@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Class</title>
+</head>
+<body>
+    <h2>JavaScript Class</h2>
+    
+    <p id="p1"></p>
+    <p id="p2"></p>
+
+    <script>
+        class student {
+            constructor(nm, y) {
+                this.name = nm;
+                this.year = y;
+            }
+
+            //create method age
+            age() {
+                let today = new Date();
+                return today.getFullYear() - this.year;
+            }
+        }
+
+        //creating object
+        student1 = new student("Mahir", 2010);
+        document.getElementById("p1").innerHTML = "My name is "+student1.name+" and I am "+student1.age()+" years old";
+
+        student2 = new student("Ricardo", 2011);
+        document.getElementById("p2").innerHTML = "His name is "+student2.name+" and he is "+student2.age()+" yeans old";
+    </script>
+</body>
+</html>
