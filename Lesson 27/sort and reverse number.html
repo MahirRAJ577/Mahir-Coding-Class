@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort and reverse numbers</title>
+</head>
+<body>
+    <h1>JavaScript Array Sort Reverse</h1>
+
+    <p id="p1"></p>
+    <button onclick="sortfunction()">sort</button>
+    <button onclick="reversefunction()">reverse</button>
+    
+    <script>
+        var number = [40, 100, 1, 5, 25, 10];
+
+        document.getElementById("p1").innerHTML = number;
+
+        function sortfunction() {
+            //sorting the array
+            number.sort(function(a, b){return a-b});
+            document.getElementById("p1").innerHTML = number;
+        }
+
+        function reversefunction(){
+            //reverse the array
+            number.reverse(function(a, b){return b-a});
+            document.getElementById("p1").innerHTML = number;
+        }
+    </script>
+</body>
+</html>
