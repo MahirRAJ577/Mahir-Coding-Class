@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Await in JavaScript</title>
+</head>
+<body>
+    <h1>Await in JavaScript</h1>
+    <p id="p1"></p>
+
+    <script>
+        async function add(a,b) {
+            let response = await a+b;
+            display(response);
+        }
+
+        function display(sum) {
+            document.getElementById("p1").innerHTML = sum;
+        }
+
+        add(5, 20)
+    </script>
+</body>
+</html>
