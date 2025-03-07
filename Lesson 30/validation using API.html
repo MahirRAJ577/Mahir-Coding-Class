@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation using API.html</title>
+</head>
+<body>
+    <p>Enter a number and click ok.</p>
+    <input id="input1" type="number" min="100" max="300" required>
+    <button onclick="myfunction()">Ok</button>
+
+    <p>If the number is less than 100 or greater than 300 an error message will be displayed</p>
+    <p id="p1"></p>
+
+    <script>
+        function myfunction() {
+            var inputobject = document.getElementById("input1");
+            
+            if (!inputobject.checkValidity()) {
+                document.getElementById("p1").innerHTML = inputobject.validationMessage;
+            }
+            else {
+                document.getElementById("p1").innerHTML = "Input is already in valid range so its correct."     
+            }
+        }
+    </script>
+</body>
+</html>
