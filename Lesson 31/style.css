@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #242525;
+    font-family: "Baloo Tamma 2", cursive;
+    background-image: url("yellow\ flower.jpg");
+}
+
+.navigation-link {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.navigation-link:hover {
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
