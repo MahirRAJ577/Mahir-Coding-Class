@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trigonometry Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      margin: 10px;
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Trigonometry Calculator</h1>
+  <p>Enter an angle in degrees:</p>
+  <input type="number" id="angleInput" placeholder="Enter angle">
+  <button onclick="calculateTrig()">Calculate</button>
+  <div id="results"></div>
+
+  <script>
+    function calculateTrig() {
+      const angleInput = document.getElementById('angleInput').value;
+      const angleInRadians = (Math.PI / 180) * angleInput; // Convert degrees to radians
+
+      const sine = Math.sin(angleInRadians).toFixed(4);
+      const cosine = Math.cos(angleInRadians).toFixed(4);
+      const tangent = Math.tan(angleInRadians).toFixed(4);
+
+      const resultsDiv = document.getElementById('results');
+      resultsDiv.innerHTML = `
+        <p>Sine: ${sine}</p>
+        <p>Cosine: ${cosine}</p>
+        <p>Tangent: ${tangent}</p>
+      `;
+    }
+  </script>
+</body>
+</html>
