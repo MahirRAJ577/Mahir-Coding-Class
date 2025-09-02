@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Map Array Example</title>
+</head>
+<body>
+  <button id="transformBtn">Transform Numbers</button>
+
+  <p id="output">Result will appear here.</p>
+
+  <script>
+    let numbers = [6, 80, 20, 12, 3];
+
+    const button = document.getElementById('transformBtn');
+    const output = document.getElementById('output');
+
+    button.addEventListener('click', () => {
+        numbers.sort((a,b) => a - b)
+        output.textContent = "Sorted numbers (ascending): " + numbers.join(', ');
+    });
+  </script>
+</body>
+</html>
